@@ -22,6 +22,7 @@ enum ResponseType {
 struct Answer {
     var text: String
     var type: AnimalType
+    
 }
 
 enum AnimalType: Character {
